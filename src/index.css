@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  background-color: black  ;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --h1color  : #0044ff ;
+}
+a {
+  cursor: pointer;
+}
+.btn {
+  border-radius: 15px;
+}
+/*  -----------------------------------------------------------------  */
+.bg-color {
+  background-color: #1f1f1f;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #00aeff;
+}
+.nav-link {
+  font-weight: 500;
+  color: white;
+}
+.nav-link:hover {
+  color: #00aeff;
+}
+.nav-link:focus , .navbar-brand:hover , .navbar-brand:focus  {
+  color: #00aeff;
+}
+
+/*  -----------------------------------------------------------------  */
+
+
+/* ---------------  Home -----------------------  */
+.header {
+  width: 50%;
+  color: white;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.maain i {
+  font-size: 100px;
+  color: #0044ff;
+}
+.noxe {
+  font-size: 80px;
+  color: white;
+  margin: 0px 20px;
+}
+/* ---------------  Movie Card  -----------------------  */
+.fa-star {
+  color: #0044ff ;
+}
+.item_col {
+  border-radius: 15px 15px 0px 0px;
+}
+.item {
+  background-color: white;
+  padding: 5px 10px 10px 10px;
+  height: 60px;
+  border-radius: 0px 0px 15px 15px ;
+}
+.item h6 , .item span {
+  color: #202020;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.item span {
+  width: 40px;
+  text-align: center;
+}
+.details h2 {
+  color: #ffee00 ;
+}
+.download {
+  font-size: 100px;
+  color: white;
+  cursor: pointer;
+}
+.download_now {
+  background-color: #0044ff;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.userprofile .icon {
+  color: white;
+  font-size: 200px;
+}
+.userprofile h3 {
+  color: white;
+  font-size: 30px;
+}
+.userprofile .btn {
+  width: 120px;
+  background-color: #00aeff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+.people_name {
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.watch i {
+  font-size: 40px;
+  color: #0044ff;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.watch h3 {
+  font-size: 30px;
+  color: white;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+.video_play .fa-play {
+  font-size: 40px;
+  color: #ffee00;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.video_play h3 {
+  font-size: 30px;
+  color: white;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+/* -------------------  Footer --------------------------- */
+.footer {
+  background-color: #1f1f1f;
+}
+.footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer ul li{
+  list-style: none;
+  padding: 10px;
+}
+.footer ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
